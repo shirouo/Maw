@@ -123,7 +123,7 @@ getgenv().Shirou = { Settings = {
 }
 
     --// Check if lock is loaded
-    if getgenv().LoadShirou == true then
+    if getgenv().LoadShirou == true and Shirou.Settings.SendNotification then
 		game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "Shirou";
 		Text = "Shirous lock is already loaded.";
@@ -143,12 +143,14 @@ getgenv().Shirou = { Settings = {
 		getgenv().LoadShirou = true
 		
 		--// Notification function
+	if Shirou.Settings.SendNotification then
 		game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "Shirous lock loaded";
 		Text = "食肉#0001";
 		Icon = "";
 		Duration = 5
 	})
+	end
 
 getgenv = getgenv
 Drawing = Drawing
