@@ -1,3 +1,5 @@
+if script_key == "ayvWJBsuKdJNsCntrPRe_SHIROU_rsaUQgsAVdKBTMbrZLEY" then
+
 repeat wait() until game:IsLoaded()
 
 getgenv().Shirou = { Settings = {
@@ -1007,3 +1009,4 @@ Players.PlayerRemoving:Connect(function(Player)
 	end
 	Script.EspPlayers[Player] = nil
 end)
+end
