@@ -5,7 +5,7 @@ script_key = "ayvWJBsuKdJNsCntrPRe_SHIROU_rsaUQgsAVdKBTMbrZLEY"
 getgenv().Shirou = { Settings = {
 	Enabled = true,
 	KeyBind = "[", -- // Toggle on and off silent keybind
-	Show_Fov = false,
+	Show_Fov = false, -- // Keep false, you have to rejoin for it to update for some reason..
 	Fov_Filled = false,
 	Fov_Size = 15,
 	CrewCheck = true,
