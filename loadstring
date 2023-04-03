@@ -12,7 +12,7 @@ getgenv().Shirou = { Settings = {
 	FriendCheck = false,
 	SendNotification = true,
 	ESPEnabled = false,
-	UseEspKeybind = true, -- // Keybinds ESP so you can turn it on and off with the press of EspKey.
+	UseEspKeybind = false, -- // Keybinds ESP so you can turn it on and off with the press of EspKey.
 	EspKey = "z",
 	AntiAimViewer = true, -- // Spoofs mousepos to bypass silent aim being aimviewed.
 	AutoPrediction = true,
