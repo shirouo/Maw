@@ -4,10 +4,10 @@ script_key = "ayvWJBsuKdJNsCntrPRe_SHIROU_rsaUQgsAVdKBTMbrZLEY"
 
 getgenv().Shirou = { Settings = {
 	Enabled = true,
-  KeyBind = "[", -- // Toggle on and off silent keybind
-  Show_Fov = false,
-  Fov_Filled = false,
-  Fov_Size = 15,
+	KeyBind = "[", -- // Toggle on and off silent keybind
+	Show_Fov = false,
+	Fov_Filled = false,
+	Fov_Size = 15,
 	CrewCheck = true,
 	FriendCheck = false,
 	SendNotification = true,
@@ -15,62 +15,62 @@ getgenv().Shirou = { Settings = {
 	UseEspKeybind = true, -- // Keybinds ESP so you can turn it on and off with the press of EspKey.
 	EspKey = "z",
 	AntiAimViewer = true, -- // Spoofs mousepos to bypass silent aim being aimviewed.
-  AutoPrediction = true,
-  HitChance = 100,
+	AutoPrediction = true,
+	HitChance = 100,
 
 	Prediction = 0.138, -- // Main Prediction
 
-  NearestHitPart = true,
+	NearestHitPart = true,
 
 ------- Range Fov  -------
-    -- // Do not edit the gun names.
+	-- // Do not edit the gun names.
 
-    EnableRangeFOV = true,
-  DoubleBarrel = { -- // DB
-	  Far = 10,
-	  Med = 15,
-	  Close = 20
+	EnableRangeFOV = true,
+	DoubleBarrel = { -- // DB
+	Far = 10,
+	Med = 15,
+	Close = 20
 },
 	Revolver = { -- // Rev
-	  Far = 8,
-	  Med = 10,
-	  Close = 15
+	Far = 8,
+	Med = 10,
+	Close = 15
 },
 	SMG = { -- // Smg
-	  Far = 8,
-	  Med = 10,
-	  Close = 15
+	Far = 8,
+	Med = 10,
+	Close = 15
 },
 	TacticalShotgun = { -- // Shotgun
-	  Far = 10,
-	  Med = 15,
-	  Close = 20
+	Far = 10,
+	Med = 15,
+	Close = 20
 },
 	Rifle = { -- // Rifle
-	  Far = 5,
-	  Med = 10,
-	  Close = 15
+	Far = 5,
+	Med = 10,
+	Close = 15
 },
 
 ------- AIM ASSIST / CAMLOCK -------
 
 	AimAssistEnabled = true,
-  Key = "e",
-  AS_Show_Fov = false,
-  ASFov_Filled = false,
-  ASFov_Size = 200,
+	Key = "e",
+	AS_Show_Fov = false,
+	ASFov_Filled = false,
+	ASFov_Size = 200,
 	UseShake = true,
 	ShakeValue = 26,
 	ASPredictMovement = true,
 	ASWallCheck = true,
-  DisableOutSideCircle = false,
-  Smoothness_X = 0.15,
+	DisableOutSideCircle = false,
+	Smoothness_X = 0.15,
 	Smoothness_Y = 0.2,
 
-  ASPrediction = 0.125,
+	ASPrediction = 0.125,
 
-  ClosestMousePoint = true,
-  },
+	ClosestMousePoint = true,
+	},
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shirouo/Shirou/main/Source.lua", true))()
