@@ -19,13 +19,6 @@ if update == true then
 	Icon = "";
 	Duration = 10
 })
-wait(10)
-	game:GetService("StarterGui"):SetCore("SendNotification", {
-	Title = "Shirou";
-	Text = "Dm me if ur having issues :3";
-	Icon = "";
-	Duration = 10
-})
 setclipboard('https://github.com/shirouo/Shirou/blob/main/loadstring')
 end
 
