@@ -10,7 +10,7 @@
 
 for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) do v:Disable() end
 
-local update = true
+local update = false
 
 if update == true then
 	game:GetService("StarterGui"):SetCore("SendNotification", {
