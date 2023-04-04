@@ -1,9 +1,5 @@
 -- // this is made by shirou, i obfuscated a loadstring so nobody whos seeing this can steal it. altho if i know u ask me and ill send u the source github :3
 
-local antimacrofling = game:GetService("RunService").Heartbeat:Connect(function()
-game.Players.LocalPlayer.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown, false)
-end)
-
 for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) do v:Disable() end
 
 local update = true
