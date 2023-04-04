@@ -15,7 +15,7 @@ local update = true
 if update == true then
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Shirou";
-	Text = "CHECK THE LOADSTRING FOR NEW LOCK, THE LINK HAS BEEN COPIED TO YOUR CLIPBOARD";
+	Text = "CHECK THE LOADSTRING FOR NEW LOCK (same), THE LINK HAS BEEN COPIED TO YOUR CLIPBOARD";
 	Icon = "";
 	Duration = 10
 })
