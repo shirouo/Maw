@@ -8,7 +8,7 @@
          \_ this is made by shirou, i obfuscated a loadstring so nobody whos seeing this can steal it. altho if i know u ask me and ill send u the source github :3
 ]]--
 
-for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) do v:Disable() end
+for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) do v:Disable() end -- // anti afk ECKS DEEE XD
 
 local update = false
 
