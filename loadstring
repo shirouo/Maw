@@ -64,8 +64,8 @@ getgenv().Shirou = { Settings = {
 	ASPredictMovement = true,
 	ASWallCheck = true,
 	DisableOutSideCircle = false,
-	Smoothness_X = 0.15,
-	Smoothness_Y = 0.2,
+	Smoothness_X = 0.15, -- // Smoothness left and right
+	Smoothness_Y = 0.15, -- // Smoothness up and down
 
 	ASPrediction = 0.125,
 
