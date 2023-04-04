@@ -8,19 +8,19 @@ getgenv().Shirou = { Settings = {
 	Show_Fov = false, -- // Keep false, you have to rejoin for it to update for some reason..
 	Fov_Filled = false,
 	Fov_Size = 15,
-	CrewCheck = true,
-	FriendCheck = false,
-	SendNotification = true,
-	ESPEnabled = false,
+	ESP = false,
 	UseEspKeybind = false, -- // Keybinds ESP so you can turn it on and off with the press of EspKey.
 	EspKey = "z",
-	AntiAimViewer = true, -- // Spoofs mousepos to bypass silent aim being aimviewed.
-	AutoPrediction = true,
+	Anti_AimViewer = true, -- // Spoofs mousepos to bypass silent aim being aimviewed.
+	Auto_prediction = true,
+	Friends_Whitelist = false,
+	Crew_Whitelist = false,
+	Enabled_Notification = true,
 	HitChance = 100,
 
 	Prediction = 0.138, -- // Main Prediction
 
-	NearestHitPart = true,
+	NearestHitPart = true, -- // Keep this on :3
 
 ------- Range Fov  -------
 	-- // Do not edit the gun names.
@@ -28,44 +28,42 @@ getgenv().Shirou = { Settings = {
 	EnableRangeFOV = true,
 	DoubleBarrel = { -- // DB
 	Far = 10,
-	Med = 15,
-	Close = 20
+	Med = 12,
+	Close = 16
 },
 	Revolver = { -- // Rev
-	Far = 8,
+	Far = 8.5,
 	Med = 10,
-	Close = 15
+	Close = 14
 },
 	SMG = { -- // Smg
-	Far = 8,
+	Far = 8.5,
 	Med = 10,
-	Close = 15
+	Close = 14
 },
 	TacticalShotgun = { -- // Shotgun
 	Far = 10,
-	Med = 15,
-	Close = 20
+	Med = 12,
+	Close = 16
 },
 	Rifle = { -- // Rifle
-	Far = 5,
+	Far = 8.5,
 	Med = 10,
-	Close = 15
+	Close = 14
 },
 
 ------- AIM ASSIST / CAMLOCK -------
 
 	AimAssistEnabled = true,
 	Key = "e",
-	AS_Show_Fov = false,
-	ASFov_Filled = false,
-	ASFov_Size = 200,
+	Radius = 200,
 	UseShake = true,
-	ShakeValue = 26,
+	ShakeValue = 20,
 	ASPredictMovement = true,
 	ASWallCheck = true,
 	DisableOutSideCircle = false,
-	Smoothness_X = 0.15, -- // Smoothness left and right
-	Smoothness_Y = 0.15, -- // Smoothness up and down
+	Smoothness_X = 0.1, -- // Smoothness left and right
+	Smoothness_Y = 0.11, -- // Smoothness up and down
 
 	ASPrediction = 0.125,
 
