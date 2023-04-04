@@ -19,7 +19,7 @@ if update == true then
 	Icon = "";
 	Duration = 10
 })
-wait(1)
+wait(10)
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Shirou";
 	Text = "Dm me if ur having issues :3";
