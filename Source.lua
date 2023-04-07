@@ -1,12 +1,23 @@
---[[
+([[
+                This script has been licensed using Shirou
+            Unauthorized distribution of this script is forbidden.
+      Any attempts at tampering, reverse engineering or modifying this script's 
+      internal logic will result in a global ban, and make you blacklisted from
+            every single script that has been licensed with Shirou
+
+        Shirous shit v3.4b for Roblox, #1 lua whitelisting system by 食肉#0001
+
   _________.__    .__                               _________.__.__                 __   
  /   _____/|  |__ |__|______  ____  __ __  ______  /   _____/|__|  |   ____   _____/  |_ 
  \_____  \ |  |  \|  \_  __ \/  _ \|  |  \/  ___/  \_____  \ |  |  | _/ __ \ /    \   __\
  /        \|   Y  \  ||  | \(  <_> )  |  /\___ \   /        \|  |  |_\  ___/|   |  \  |  
 /_______  /|___|  /__||__|   \____/|____//____  > /_______  /|__|____/\___  >___|  /__|  
         \/      \/                            \/          \/              \/     \/      
-         \_ this is made by shirou, i obfuscated a loadstring so nobody whos seeing this can steal it. altho if i know u ask me and ill send u the source github :3
-]]--
+         \_ this is made by shirou, i obfuscated a loadstring so nobody whos seeing this can steal it. altho if i know u ask me and ill send u the source github :3   
+
+                                                     
+                 Script ID: f2u1qsd28ppvx3cmrsa08ec20di7pt7l
+]])
 
 for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) do v:Disable() end -- // anti afk ECKS DEEE XD
 
