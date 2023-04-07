@@ -1,4 +1,4 @@
-([[
+--[[
                 This script has been licensed using Shirou
             Unauthorized distribution of this script is forbidden.
       Any attempts at tampering, reverse engineering or modifying this script's 
@@ -17,7 +17,7 @@
 
                                                      
                  Script ID: f2u1qsd28pc2_SHIROU_0di7pt7lpvx3
-]])
+]]--
 
 for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) do v:Disable() end -- // anti afk ECKS DEEE XD
 
