@@ -40,7 +40,7 @@ getgenv().ShirouSettings = {
 ------- Range Fov  -------
     -- // Do not edit the gun names.
 
-    EnableRangeFOV = false,
+    EnableRangeFOV = true,
     DoubleBarrel = { -- // DB
     Far = 3.4,
     Med = 7,
