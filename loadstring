@@ -67,7 +67,7 @@ getgenv().ShirouSettings = {
     Close = 6
 },
 
-------- AIM ASSIST / CAMLOCK -------
+------- Aim Assist / Camlock -------
 
     AimAssistEnabled = true,
     ASKeyBind = "e",
@@ -86,7 +86,7 @@ please i beg if ur trying to use more than 1 part just use closestmousepoint ( y
     
     ClosestMousePoint = true, -- // Turn false if you want to use a custom part
     
-------- MISC / may be adding more soon :3 -------
+------- Misc / may be adding more soon :3 -------
 
     AntiMacroFling = true, -- // makes it so u stop flinging by hitting stupid walls
     UseLay = false, -- // use lay emote keybind
