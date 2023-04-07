@@ -1,7 +1,7 @@
 --[[
                 This script has been licensed using Shirou
             Unauthorized distribution of this script is forbidden.
-      Any attempts at tampering, reverse engineering or modifying this script's 
+      Any attempts at tampering, reverse engineering or modifying this scripts 
       internal logic will result in a global ban, and make you blacklisted from
             every single script that has been licensed with Shirou
 
