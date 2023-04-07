@@ -5,7 +5,7 @@
       internal logic will result in a global ban, and make you blacklisted from
             every single script that has been licensed with Shirou
 
-        Shirous shit v3.6b for Roblox, #1 lock in your veins by 食肉#0001
+        Shirous shit v3.4b for Roblox, #1 lock in your veins by 食肉#0001
 
   _________.__    .__                               _________.__.__                 __   
  /   _____/|  |__ |__|______  ____  __ __  ______  /   _____/|__|  |   ____   _____/  |_ 
