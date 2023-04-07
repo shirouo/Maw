@@ -16,7 +16,7 @@ script_key = "ayvWJBsuKdJNsCntrPRe_SHIROU_rsaUQgsAVdKBTMbrZLEY"
 
 getgenv().ShirouSettings = {
     Enabled = true,
-    Show_Fov = false, -- // Keep false, you have to rejoin for it to update for some reason..
+    Show_Fov = false, -- // works now 🤑
     K_O_Check = true,
     Friends_Whitelist = false,
     Crew_Whitelist = true,
