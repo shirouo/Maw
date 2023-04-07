@@ -16,7 +16,7 @@ script_key = "ayvWJBsuKdJNsCntrPRe_SHIROU_rsaUQgsAVdKBTMbrZLEY"
 
 getgenv().ShirouSettings = {
     Enabled = true,
-    Show_Fov = false, -- // Keep false, you have to rejoin for it to update for some reason..
+    Show_Fov = true, -- // Keep false, you have to rejoin for it to update for some reason..
     K_O_Check = true,
     Friends_Whitelist = false,
     Crew_Whitelist = true,
@@ -88,7 +88,7 @@ please i beg if ur trying to use more than 1 part just use closestmousepoint ( y
     
 ------- Misc / may be adding more soon :3 -------
 
-    AntiMacroFling = true, -- // makes it so u stop flinging by hitting stupid walls
+    AntiMacroFling = true, -- // makes it so u stop flinging by hitting stupid walls / KEEP THIS ON
     UseLay = false, -- // use lay emote keybind
     LayKeybind = "v" -- // lay emote keybind
 }
