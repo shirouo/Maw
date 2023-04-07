@@ -88,7 +88,7 @@ please i beg if ur trying to use more than 1 part just use closestmousepoint ( y
     
 ------- Misc / may be adding more soon :3 -------
 
-    AntiMacroFling = true, -- // makes it so u stop flinging by hitting stupid walls / KEEP THIS ON
+    AntiMacroFling = true, -- // makes it so u stop flinging by hitting stupid walls
     UseLay = false, -- // use lay emote keybind
     LayKeybind = "v" -- // lay emote keybind
 }
