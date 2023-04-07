@@ -82,7 +82,7 @@ getgenv().ShirouSettings = {
     ASPrediction = 0.07,
 
     Part = "HumanoidRootPart", --[[ AimAssist Lookpart / For blatant use
-            please i beg if ur trying to use more than 1 part just use closestmousepoint ]]--
+please i beg if ur trying to use more than 1 part just use closestmousepoint ( you cant use more than 1 part here ) ]]--
     
     ClosestMousePoint = true, -- // Turn false if you want to use a custom part
     
