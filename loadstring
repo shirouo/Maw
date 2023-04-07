@@ -16,17 +16,17 @@ script_key = "ayvWJBsuKdJNsCntrPRe_SHIROU_rsaUQgsAVdKBTMbrZLEY"
 
 getgenv().ShirouSettings = {
     Enabled = true,
-	Show_Fov = false, -- // Keep false, you have to rejoin for it to update for some reason..
-	K_O_Check = true,
-	Friends_Whitelist = false,
+    Show_Fov = false, -- // Keep false, you have to rejoin for it to update for some reason..
+    K_O_Check = true,
+    Friends_Whitelist = false,
     Crew_Whitelist = true,
-	Auto_prediction = true,
+    Auto_prediction = true,
     KeyBind = "nil", -- // Toggle on and off silent keybind / nil = cant be turned off
     ESP = false,
     UseEspKeybind = false, -- // Keybinds ESP so you can turn it on and off with the press of EspKey.
     EspKey = "z",
     Anti_AimViewer = true, -- // Spoofs mousepos to bypass silent aim being aimviewed.
-	Fov_Filled = false,
+    Fov_Filled = false,
     Fov_Size = 20,
     Enabled_Notification = true,
     HitChance = 100,
@@ -71,11 +71,11 @@ getgenv().ShirouSettings = {
 
     AimAssistEnabled = true,
     ASKeyBind = "e",
-	KnockedCheck = true, -- // Disables camlock when you or the target dies
+    KnockedCheck = true, -- // Disables camlock when you or the target dies
     UseShake = true,
     ShakeValue = 18,
     EnablePrediction = false,
-	Radius = 200,
+    Radius = 200,
     Smoothness_X = 0.05, -- // Smoothness left and right
     Smoothness_Y = 0.08, -- // Smoothness up and down
 
@@ -88,9 +88,9 @@ getgenv().ShirouSettings = {
     
 ------- MISC / may be adding more soon :3 -------
 
-	AntiMacroFling = true, -- // makes it so u stop flinging by hitting stupid walls
+    AntiMacroFling = true, -- // makes it so u stop flinging by hitting stupid walls
     UseLay = false, -- // use lay emote keybind
-	LayKeybind = "v" -- // lay emote keybind
+    LayKeybind = "v" -- // lay emote keybind
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shirouo/Shirou/main/Source.lua", true))()
