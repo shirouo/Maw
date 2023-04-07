@@ -16,7 +16,7 @@
          \_ this is made by shirou, i obfuscated a loadstring so nobody whos seeing this can steal it. altho if i know u ask me and ill send u the source github :3   
 
                                                      
-                 Script ID: f2u1qsd28ppvx3cmrsa08ec20di7pt7l
+                 Script ID: f2u1qsd28pc2_SHIROU_0di7pt7lpvx3
 ]])
 
 for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) do v:Disable() end -- // anti afk ECKS DEEE XD
