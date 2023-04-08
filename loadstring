@@ -37,36 +37,6 @@ getgenv().ShirouSettings = {
     
     HitParts = "Head","UpperTorso","LowerTorso", -- // If youre using more than 3 please use nearesthitpart
 
-------- Range Fov  -------
-    -- // Do not edit the gun names.
-
-    EnableRangeFOV = false, -- // keep false for rn its broken
-    DoubleBarrel = { -- // DB
-    Far = 3.4,
-    Med = 7,
-    Close = 13
-},
-    Revolver = { -- // Rev
-    Far = 2.5,
-    Med = 4,
-    Close = 6
-},
-    SMG = { -- // Smg
-    Far = 2.5,
-    Med = 4,
-    Close = 6
-},
-    TacticalShotgun = { -- // Shotgun
-    Far = 3.4,
-    Med = 7,
-    Close = 13
-},
-    Rifle = { -- // Rifle
-    Far = 2.5,
-    Med = 4,
-    Close = 6
-},
-
 ------- Aim Assist / Camlock -------
 
     AimAssistEnabled = true,
