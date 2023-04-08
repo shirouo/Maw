@@ -18,18 +18,18 @@ script_key = "ayvWJBsuKdJNsCntrPRe_SHIROU_rsaUQgsAVdKBTMbrZLEY"
 
 getgenv().ShirouSettings = {
     Enabled = true,
-    Show_Fov = false, -- // works without rejoining now 🤑
+    Show_Fov = true, -- // works without rejoining now 🤑
     K_O_Check = true,
     Friends_Whitelist = false,
     Crew_Whitelist = true,
     Auto_prediction = true,
     KeyBind = "nil", -- // Toggle on and off silent keybind / nil = cant be turned off
     ESP = false,
-    UseEspKeybind = false, -- // Keybinds ESP so you can turn it on and off with the press of EspKey.
+    UseEspKeybind = true, -- // Keybinds ESP so you can turn it on and off with the press of EspKey.
     EspKey = "z",
     Anti_AimViewer = true, -- // Spoofs mousepos to bypass silent aim being aimviewed.
     Fov_Filled = false,
-    Fov_Size = 20,
+    Fov_Size = 7.5,
     Enabled_Notification = true,
     HitChance = 100,
 
@@ -45,13 +45,13 @@ getgenv().ShirouSettings = {
     ASKeyBind = "e",
     KnockedCheck = true, -- // Disables camlock when you or the target dies
     UseShake = true,
-    ShakeValue = 18,
-    EnablePrediction = false,
-    Radius = 200,
-    Smoothness_X = 0.05, -- // Smoothness left and right
-    Smoothness_Y = 0.08, -- // Smoothness up and down
+    ShakeValue = 13,
+    EnablePrediction = true,
+    Radius = 120,
+    Smoothness_X = 0.065, -- // Smoothness left and right
+    Smoothness_Y = 0.0725, -- // Smoothness up and down
 
-    ASPrediction = 0.07,
+    ASPrediction = 0.015,
 
     Part = "HumanoidRootPart", --[[ AimAssist Lookpart / For blatant use
 please i beg if ur trying to use more than 1 part just use closestmousepoint ( you cant use more than 1 part here ) ]]--
