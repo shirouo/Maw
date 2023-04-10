@@ -61,6 +61,8 @@ please i beg if ur trying to use more than 1 part just use closestmousepoint ( y
 ------- Misc / may be adding more soon :3 -------
 
     AntiMacroFling = true, -- // makes it so u stop flinging by hitting stupid walls
+    UseStretchedResolution = false, -- // if you want it on or off, turning it off defaults your resolution : )
+    Resolution = 1, -- // 1 = Normal Resolution, 0.65 is Mildly stretched and 0.35 is INSANELY stretched.
     UseLay = false, -- // use lay emote keybind
     LayKeybind = "v" -- // lay emote keybind
 }
