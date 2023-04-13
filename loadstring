@@ -62,8 +62,9 @@ please i beg if ur trying to use more than 1 part just use closestmousepoint ( y
 ------- Misc / may be adding more soon :3 -------
 
     AntiMacroFling = true, -- // makes it so u stop flinging by hitting stupid walls
-    UseStretchedResolution = false, --[[ // if you want it on or off, turning it off defaults your resolution : )
-WARNING: THIS LOOKS HIGHLY UNLEGIT 99% OF THE TIME , use it at ur own risk if clipping. ]]--
+    UseStretchedResolution = false, --[[ // if you want it on or off, turning it off defaults your resolution :3
+WARNING: THIS LOOKS HIGHLY UNLEGIT 99% OF THE TIME , use it at ur own risk if clipping. 
+Resolution changes can only be values 1 and below, examples are 0.6, 07, 0.5, etc.]]--
     Resolution_Y = 1, -- // 1 = Normal Resolution, 0.65 is Mildly stretched and 0.35 is INSANELY stretched.
     Resolution_X = 1, -- // 1 = Normal Resolution, This makes your resolution thinner like valorant, adjust to liking if u want to use it.
     UseLay = false, -- // use lay emote keybind
