@@ -12,46 +12,47 @@
 ------- COPY BELOW THIS LINE :D -------
 
 
-script_key = "ayvWJBsuKdJNsCntrPRe_SHIROU_rsaUQgsAVdKBTMbrZLEY"
+script_key = "ab134c6ecc7a19e4d624cd98a319303a";
 
 ------- Silent Aim -------
 
-getgenv().ShirouSettings = {
+getgenv().DemiseSettings = {
     Enabled = true,
-    Show_Fov = true, -- // works without rejoining now 🤑
+    Show_Fov = false, -- // works without rejoining now :money_mouth:
     K_O_Check = true,
     Friends_Whitelist = false,
-    Crew_Whitelist = true,
-    Auto_prediction = true,
-    KeyBind = "nil", -- // Toggle on and off silent keybind / nil = cant be turned off
+    Crew_Whitelist = false,
+    Auto_prediction = false,
+    KeyBind = "p", -- // Toggle on and off silent keybind / nil = cant be turned off
+    Enabled_Notification = false,
     ESP = false,
     UseEspKeybind = true, -- // Keybinds ESP so you can turn it on and off with the press of EspKey.
     EspKey = "z",
     Anti_AimViewer = true, -- // Spoofs mousepos to bypass silent aim being aimviewed.
     Fov_Filled = false,
-    Fov_Size = 7.5,
-    Enabled_Notification = true,
+    Fov_Size = 50,
     HitChance = 100,
 
-    Prediction = 0.138, -- // Main Prediction
+    Prediction = 0.102421, -- // Main Prediction
 
     NearestHitPart = true, -- // Turn false if u want custom parts
     
-    HitParts = "Head","UpperTorso","LowerTorso", -- // If youre using more than 3 please use nearesthitpart
+    HitParts = "Head","HumanoidRootPart","LowerTorso", -- // If youre using more than 3 please use nearesthitpart
 
 ------- Aim Assist / Camlock -------
 
-    AimAssistEnabled = true,
-    ASKeyBind = "e",
+    AimAssistEnabled = false,
+    ASKeyBind = "q",
     KnockedCheck = true, -- // Disables camlock when you or the target dies
     UseShake = true,
-    ShakeValue = 13,
+    ShakeValue = 14,
     EnablePrediction = true,
-    Radius = 120,
-    Smoothness_X = 0.065, -- // Smoothness left and right
-    Smoothness_Y = 0.0725, -- // Smoothness up and down
+    EnableSmoothness = true,
+    Radius = 50,
+    Smoothness_X = 0.026, -- // Smoothness left and right
+    Smoothness_Y = 0.053, -- // Smoothness up and down
 
-    ASPrediction = 0.015,
+    ASPrediction = 0.0005,
 
     Part = "HumanoidRootPart", --[[ AimAssist Lookpart / For blatant use
 please i beg if ur trying to use more than 1 part just use closestmousepoint ( you cant use more than 1 part here ) ]]--
@@ -63,9 +64,16 @@ please i beg if ur trying to use more than 1 part just use closestmousepoint ( y
     AntiMacroFling = true, -- // makes it so u stop flinging by hitting stupid walls
     UseStretchedResolution = false, --[[ // if you want it on or off, turning it off defaults your resolution : )
 WARNING: THIS LOOKS HIGHLY UNLEGIT 99% OF THE TIME , use it at ur own risk if clipping. ]]--
-    Resolution = 1, -- // 1 = Normal Resolution, 0.65 is Mildly stretched and 0.35 is INSANELY stretched.
+    Resolution_Y = 1, -- // 1 = Normal Resolution, 0.65 is Mildly stretched and 0.35 is INSANELY stretched.
+    Resolution_X = 1, -- // 1 = Normal Resolution, This makes your resolution thinner like valorant, adjust to liking if u want to use it.
     UseLay = false, -- // use lay emote keybind
-    LayKeybind = "v" -- // lay emote keybind
+    LayKeybind = "v", -- // lay emote keybind
+
+------- Memory -------
+
+    EnableMemory = true,
+    MemSpoofMost = 954,
+    MemSpoofLeast = 949
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shirouo/Shirou/main/Source.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shirouo/Demise/main/Silent%20v.0.0.0.1", true))()
