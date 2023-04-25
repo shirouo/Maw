@@ -12,69 +12,90 @@
 ------- COPY BELOW THIS LINE :D -------
 
 
-script_key = "ab134c6ecc7a19e4d624cd98a319303a";
-
-------- Silent Aim -------
-
-getgenv().DemiseSettings = {
-    Enabled = true,
-    Show_Fov = false, -- // works without rejoining now :money_mouth:
-    K_O_Check = true,
-    Friends_Whitelist = false,
-    Crew_Whitelist = false,
-    Auto_prediction = false,
-    KeyBind = "p", -- // Toggle on and off silent keybind / nil = cant be turned off
-    Enabled_Notification = false,
-    ESP = false,
-    UseEspKeybind = true, -- // Keybinds ESP so you can turn it on and off with the press of EspKey.
-    EspKey = "z",
-    Anti_AimViewer = true, -- // Spoofs mousepos to bypass silent aim being aimviewed.
-    Fov_Filled = false,
-    Fov_Size = 50,
-    HitChance = 100,
-
-    Prediction = 0.102421, -- // Main Prediction
-
-    NearestHitPart = true, -- // Turn false if u want custom parts
-    
-    HitParts = "Head","HumanoidRootPart","LowerTorso", -- // If youre using more than 3 please use nearesthitpart
-
-------- Aim Assist / Camlock -------
-
-    AimAssistEnabled = false,
-    ASKeyBind = "q",
-    KnockedCheck = true, -- // Disables camlock when you or the target dies
-    UseShake = true,
-    ShakeValue = 14,
-    EnablePrediction = true,
-    EnableSmoothness = true,
-    Radius = 50,
-    Smoothness_X = 0.026, -- // Smoothness left and right
-    Smoothness_Y = 0.053, -- // Smoothness up and down
-
-    ASPrediction = 0.0005,
-
-    Part = "HumanoidRootPart", --[[ AimAssist Lookpart / For blatant use
-please i beg if ur trying to use more than 1 part just use closestmousepoint ( you cant use more than 1 part here ) ]]--
-    
-    ClosestMousePoint = true, -- // Turn false if you want to use a custom part
-    
-------- Misc / may be adding more soon :3 -------
-
-    AntiMacroFling = true, -- // makes it so u stop flinging by hitting stupid walls
-    UseStretchedResolution = false, --[[ // if you want it on or off, turning it off defaults your resolution :3
-WARNING: THIS LOOKS HIGHLY UNLEGIT 99% OF THE TIME , use it at ur own risk if clipping. 
-Resolution changes can only be values 1 and below, examples are 0.6, 07, 0.5, etc.]]--
-    Resolution_Y = 1, -- // 1 = Normal Resolution, 0.65 is Mildly stretched and 0.35 is INSANELY stretched.
-    Resolution_X = 1, -- // 1 = Normal Resolution, This makes your resolution thinner like valorant, adjust to liking if u want to use it.
-    UseLay = false, -- // use lay emote keybind
-    LayKeybind = "v", -- // lay emote keybind
-
-------- Memory -------
-
-    EnableMemory = true,
-    MemSpoofMost = 954,
-    MemSpoofLeast = 949
+getgenv().MAW = {
+    General = {
+        Key = "ab134c6ecc7a19e4d624cd98a319303a",
+        Notifications = true,
+        Intro = true,
+    },
+    Silent = {
+        Main = {
+            Enabled = true,
+            Toggle = "[",
+            Prediction = 0.102421,
+            NearestCursorHitpart = true,
+            Parts = "Head","HumanoidRootPart","LowerTorso"
+        },
+        Fov = {
+            ShowFov = true,
+            Radius = 7.5,
+            Filled = false,
+            Transparency = 0.8
+        }
+    },
+    Camlock = {
+        Main = {
+            Enabled = true,
+            Key = "q",
+            SmoothLock = true,
+            Smoothness_X = 0.0225,
+            Smoothness_Y = 0.08575,
+            PredictMovement = true,
+            Prediction = 0.002,
+            Shake = true,
+            ShakeValue = 40,
+            ClosestMousePoint = true,
+            Part = "HumanoidRootPart"
+        },
+        Fov = {
+            Radius = 120
+        }
+    },
+    Checks = {
+        SilentKnockedCheck = true,
+        CamlockKnockedCheck = true,
+        Ignore_Friends = false,
+        Ignore_Crew = false
+    },
+    Misc = {
+        AntiMacroFling = true,
+        Animations = true,
+        UseStretchedResolution = false,
+        Resolution_Y = 1,
+        Resolution_X = 1,
+        ESP = false,
+        UseEspKeybind = false,
+        EspKey = "x",
+        UseLay = false,
+        LayKeybind = "v"
+    },
+    AutoPrediction = {
+        Enabled = true,
+        ping10_20 = 0.1,
+        ping20_30 = 0.125,
+        ping30_40 = 0.132,
+        ping40_50 = 0.136,
+        ping50_60 = 0.130,
+        ping60_70 = 0.136,
+        ping70_80 = 0.138,
+        ping80_90 = 0.138,
+        ping90_100 = 0.146,
+        ping100_110 = 0.14322,
+        ping110_120 = 0.146,
+        ping120_130 = 0.149,
+        ping130_140 = 0.151,
+        ping140_150 = 0.153,
+        ping150_160 = 0.1554,
+        ping160_170 = 0.1663,
+        ping170_180 = 0.1672,
+        ping180_190 = 0.1848,
+        ping190_200 = 0.1865
+    },
+    Memory = {
+        Enabled = false,
+        MemSpoofMost = 954,
+        MemSpoofLeast = 949
+    },
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shirouo/Demise/main/Silent%20v.0.0.0.1", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shirouo/Maw/main/Silent%20v.0.0.0.1", true))()
